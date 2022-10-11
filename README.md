@@ -4,4 +4,4 @@
 
 ## Thanks
 
-* [ikeltis](https://github.com/ikeltis)
+- [ikeltis](https://github.com/ikeltis)

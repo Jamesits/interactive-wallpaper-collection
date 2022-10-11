@@ -1,0 +1,17 @@
+:80 {
+    log
+
+    handle_path /* {
+        file_server {
+            root          .
+            hide          .git
+            index         index.html index.htm
+            browse
+        }
+    }
+
+    header Access-Control-Allow-Methods "POST, GET, OPTIONS, PUT"
+    header Access-Control-Allow-Headers "*"
+    header Origin "*"
+    header Access-Control-Allow-Origin "*"
+}
